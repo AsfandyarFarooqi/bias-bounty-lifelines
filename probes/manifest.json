@@ -1,0 +1,40 @@
+{
+ "eps": 0.5,
+ "probes": [
+  {
+   "file": "p1_transport.csv",
+   "piece": "s_T",
+   "mean_s2_nonWA": 0.0005802336340216441,
+   "mean_s_nonWA": 0.010098252798805843,
+   "max": 0.166667
+  },
+  {
+   "file": "p2_building.csv",
+   "piece": "s_B",
+   "mean_s2_nonWA": 0.0002692404807049792,
+   "mean_s_nonWA": 0.010959747307815333,
+   "max": 0.228852
+  },
+  {
+   "file": "p3_fire_ems.csv",
+   "piece": "s_fire",
+   "mean_s2_nonWA": 0.0001999514933362832,
+   "mean_s_nonWA": 0.011706703593133597,
+   "max": 0.232272
+  },
+  {
+   "file": "p4_schools.csv",
+   "piece": "s_school",
+   "mean_s2_nonWA": 0.0003613093128461456,
+   "mean_s_nonWA": 0.012576363578206632,
+   "max": 0.087928
+  },
+  {
+   "file": "p5_business.csv",
+   "piece": "s_C",
+   "mean_s2_nonWA": 0.0011152310319188612,
+   "mean_s_nonWA": 0.018707062480008526,
+   "max": 0.202192
+  }
+ ]
+}

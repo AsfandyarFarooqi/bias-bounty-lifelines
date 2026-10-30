@@ -1,0 +1,424 @@
+{
+ "n_stores": 25221,
+ "n_missing": 2318,
+ "share_missing": 0.0919,
+ "n_tracts_with_stores": 7935,
+ "by_group": {
+  "chain": {
+   "n": 14699,
+   "share": 0.0482,
+   "lo": 0.0445,
+   "hi": 0.0518
+  },
+  "independent": {
+   "n": 10522,
+   "share": 0.153,
+   "lo": 0.1463,
+   "hi": 0.1602
+  }
+ },
+ "by_svi": {
+  "Q1 (least)": {
+   "n": 2639,
+   "share": 0.0587,
+   "lo": 0.05,
+   "hi": 0.0683
+  },
+  "Q2": {
+   "n": 3899,
+   "share": 0.0767,
+   "lo": 0.0683,
+   "hi": 0.0849
+  },
+  "Q3": {
+   "n": 6631,
+   "share": 0.0903,
+   "lo": 0.0833,
+   "hi": 0.0977
+  },
+  "Q4 (most)": {
+   "n": 12033,
+   "share": 0.105,
+   "lo": 0.0991,
+   "hi": 0.1109
+  }
+ },
+ "by_svi_group": {
+  "Q1 (least)|chain": {
+   "n": 1962,
+   "share": 0.0403,
+   "lo": 0.0318,
+   "hi": 0.0495
+  },
+  "Q1 (least)|independent": {
+   "n": 677,
+   "share": 0.1123,
+   "lo": 0.0879,
+   "hi": 0.1373
+  },
+  "Q2|chain": {
+   "n": 2566,
+   "share": 0.0518,
+   "lo": 0.0432,
+   "hi": 0.0605
+  },
+  "Q2|independent": {
+   "n": 1333,
+   "share": 0.1245,
+   "lo": 0.1073,
+   "hi": 0.1429
+  },
+  "Q3|chain": {
+   "n": 3980,
+   "share": 0.0477,
+   "lo": 0.041,
+   "hi": 0.0551
+  },
+  "Q3|independent": {
+   "n": 2651,
+   "share": 0.1543,
+   "lo": 0.141,
+   "hi": 0.1674
+  },
+  "Q4 (most)|chain": {
+   "n": 6182,
+   "share": 0.0493,
+   "lo": 0.0438,
+   "hi": 0.0546
+  },
+  "Q4 (most)|independent": {
+   "n": 5851,
+   "share": 0.1637,
+   "lo": 0.1538,
+   "hi": 0.1738
+  }
+ },
+ "indep_share_by_svi": {
+  "Q1 (least)": 0.2565,
+  "Q2": 0.3419,
+  "Q3": 0.3998,
+  "Q4 (most)": 0.4862
+ },
+ "ratio_q4_q1_all": [
+  1.787,
+  1.522,
+  2.13
+ ],
+ "ratio_q4_q1_indep": [
+  1.459,
+  1.191,
+  1.867
+ ],
+ "ratio_q4_q1_chain": [
+  1.225,
+  0.97,
+  1.589
+ ],
+ "rules": {
+  "found_strict": {
+   "Q1 (least)|chain": 0.0912,
+   "Q1 (least)|independent": 0.2718,
+   "Q2|chain": 0.1037,
+   "Q2|independent": 0.2933,
+   "Q3|chain": 0.0982,
+   "Q3|independent": 0.3293,
+   "Q4 (most)|chain": 0.1045,
+   "Q4 (most)|independent": 0.3444,
+   "Q1 (least)|all": 0.1376,
+   "Q2|all": 0.1685,
+   "Q3|all": 0.1906,
+   "Q4 (most)|all": 0.2211
+  },
+  "found": {
+   "Q1 (least)|chain": 0.0403,
+   "Q1 (least)|independent": 0.1123,
+   "Q2|chain": 0.0518,
+   "Q2|independent": 0.1245,
+   "Q3|chain": 0.0477,
+   "Q3|independent": 0.1543,
+   "Q4 (most)|chain": 0.0493,
+   "Q4 (most)|independent": 0.1637,
+   "Q1 (least)|all": 0.0587,
+   "Q2|all": 0.0767,
+   "Q3|all": 0.0903,
+   "Q4 (most)|all": 0.105
+  },
+  "found_loose": {
+   "Q1 (least)|chain": 0.027,
+   "Q1 (least)|independent": 0.0414,
+   "Q2|chain": 0.0335,
+   "Q2|independent": 0.0533,
+   "Q3|chain": 0.0329,
+   "Q3|independent": 0.0819,
+   "Q4 (most)|chain": 0.0327,
+   "Q4 (most)|independent": 0.0875,
+   "Q1 (least)|all": 0.0307,
+   "Q2|all": 0.0403,
+   "Q3|all": 0.0525,
+   "Q4 (most)|all": 0.0593
+  }
+ },
+ "urban_by_svi_group": {
+  "Q1 (least)|chain": 0.0383,
+  "Q1 (least)|independent": 0.1125,
+  "Q2|chain": 0.0494,
+  "Q2|independent": 0.13,
+  "Q3|chain": 0.0434,
+  "Q3|independent": 0.1589,
+  "Q4 (most)|chain": 0.0482,
+  "Q4 (most)|independent": 0.1696
+ },
+ "urban_n": 19804,
+ "indep_region_svi": {
+  "eastern-ok|Q1 (least)": [
+   61,
+   0.1475
+  ],
+  "eastern-ok|Q2": [
+   140,
+   0.1214
+  ],
+  "eastern-ok|Q3": [
+   378,
+   0.164
+  ],
+  "eastern-ok|Q4 (most)": [
+   516,
+   0.1512
+  ],
+  "eastern-wa|Q1 (least)": [
+   37,
+   0.0811
+  ],
+  "eastern-wa|Q2": [
+   119,
+   0.0672
+  ],
+  "eastern-wa|Q3": [
+   228,
+   0.1096
+  ],
+  "eastern-wa|Q4 (most)": [
+   417,
+   0.0959
+  ],
+  "maricopa-az|Q1 (least)": [
+   60,
+   0.0833
+  ],
+  "maricopa-az|Q2": [
+   117,
+   0.1026
+  ],
+  "maricopa-az|Q3": [
+   212,
+   0.1368
+  ],
+  "maricopa-az|Q4 (most)": [
+   505,
+   0.1822
+  ],
+  "northern-ca|Q1 (least)": [
+   65,
+   0.0462
+  ],
+  "northern-ca|Q2": [
+   151,
+   0.0596
+  ],
+  "northern-ca|Q3": [
+   346,
+   0.1387
+  ],
+  "northern-ca|Q4 (most)": [
+   574,
+   0.1272
+  ],
+  "south-central-tx|Q1 (least)": [
+   454,
+   0.1233
+  ],
+  "south-central-tx|Q2": [
+   806,
+   0.1489
+  ],
+  "south-central-tx|Q3": [
+   1487,
+   0.1648
+  ],
+  "south-central-tx|Q4 (most)": [
+   3839,
+   0.1758
+  ]
+ },
+ "pre2021_by_svi_group": {
+  "Q1 (least)|chain": 0.0281,
+  "Q1 (least)|independent": 0.1031,
+  "Q2|chain": 0.0399,
+  "Q2|independent": 0.0974,
+  "Q3|chain": 0.0295,
+  "Q3|independent": 0.1303,
+  "Q4 (most)|chain": 0.0354,
+  "Q4 (most)|independent": 0.1244
+ },
+ "by_type": {
+  "combination (dollar, pharmacy, other)": {
+   "n": 6775,
+   "share": 0.0372,
+   "lo": 0.0325,
+   "hi": 0.0419
+  },
+  "convenience store": {
+   "n": 12174,
+   "share": 0.1371,
+   "lo": 0.1311,
+   "hi": 0.1436
+  },
+  "small or medium grocery": {
+   "n": 1281,
+   "share": 0.1608,
+   "lo": 0.1415,
+   "hi": 0.181
+  },
+  "specialty (meat, bakery, produce)": {
+   "n": 480,
+   "share": 0.0896,
+   "lo": 0.0649,
+   "hi": 0.1157
+  },
+  "supermarket or large grocery": {
+   "n": 4511,
+   "share": 0.0328,
+   "lo": 0.0278,
+   "hi": 0.0386
+  }
+ },
+ "by_type_group": {
+  "combination (dollar, pharmacy, other)|chain": {
+   "n": 6319,
+   "share": 0.0312,
+   "lo": 0.027,
+   "hi": 0.0358
+  },
+  "combination (dollar, pharmacy, other)|independent": {
+   "n": 456,
+   "share": 0.1206,
+   "lo": 0.0915,
+   "hi": 0.1501
+  },
+  "convenience store|chain": {
+   "n": 4981,
+   "share": 0.0819,
+   "lo": 0.0744,
+   "hi": 0.0899
+  },
+  "convenience store|independent": {
+   "n": 7193,
+   "share": 0.1753,
+   "lo": 0.1662,
+   "hi": 0.1841
+  },
+  "small or medium grocery|chain": {
+   "n": 56,
+   "share": 0.2143,
+   "lo": 0.1071,
+   "hi": 0.3214
+  },
+  "small or medium grocery|independent": {
+   "n": 1225,
+   "share": 0.1584,
+   "lo": 0.1375,
+   "hi": 0.1798
+  },
+  "specialty (meat, bakery, produce)|chain": {
+   "n": 9,
+   "share": 0.1111,
+   "lo": 0.0,
+   "hi": 0.3333
+  },
+  "specialty (meat, bakery, produce)|independent": {
+   "n": 471,
+   "share": 0.0892,
+   "lo": 0.0636,
+   "hi": 0.1151
+  },
+  "supermarket or large grocery|chain": {
+   "n": 3334,
+   "share": 0.027,
+   "lo": 0.0216,
+   "hi": 0.0329
+  },
+  "supermarket or large grocery|independent": {
+   "n": 1177,
+   "share": 0.0493,
+   "lo": 0.0367,
+   "hi": 0.0628
+  }
+ },
+ "logit_indep": {
+  "n": 10512,
+  "svi": {
+   "coef": 0.5142,
+   "se": 0.1943,
+   "p": 0.0081,
+   "odds_ratio": 1.6724
+  },
+  "rural": {
+   "coef": -0.2533,
+   "se": 0.1019,
+   "p": 0.0129,
+   "odds_ratio": 0.7762
+  },
+  "tribal": {
+   "coef": 0.0647,
+   "se": 0.248,
+   "p": 0.7942,
+   "odds_ratio": 1.0668
+  },
+  "colonia_1km": {
+   "coef": -0.2231,
+   "se": 0.1214,
+   "p": 0.0662,
+   "odds_ratio": 0.8001
+  },
+  "log_dens": {
+   "coef": -0.0476,
+   "se": 0.0295,
+   "p": 0.1068,
+   "odds_ratio": 0.9535
+  }
+ },
+ "logit_all": {
+  "n": 25202,
+  "chain": {
+   "coef": -0.8624,
+   "se": 0.1238,
+   "p": 0.0,
+   "odds_ratio": 0.4222
+  },
+  "svi": {
+   "coef": 0.347,
+   "se": 0.1051,
+   "p": 0.001,
+   "odds_ratio": 1.4148
+  }
+ },
+ "tracts_any_missing": 1926,
+ "pop_any_missing": 8624879.0,
+ "tracts_all_missing": 190,
+ "pop_all_missing": 726756.0,
+ "tracts_all_missing_by_svi": {
+  "Q1 (least)": 33,
+  "Q2": 38,
+  "Q3": 49,
+  "Q4 (most)": 69
+ },
+ "missing_by_svi_count": {
+  "Q1 (least)": 155,
+  "Q2": 299,
+  "Q3": 599,
+  "Q4 (most)": 1263
+ },
+ "places_per1k_tracts_with_missing": 42.2,
+ "places_per1k_tracts_without_missing": 40.0
+}

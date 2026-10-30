@@ -1,0 +1,43 @@
+[
+ {
+  "url": "https://services1.arcgis.com/RLQu0rK7h4kbsBq5/arcgis/rest/services/snap_retailer_location_data/FeatureServer/0/query (all records inside the five study-region boxes)",
+  "file": "snap_live",
+  "sha256": "6f5f4f3953f9ef35ce95ddd869d84fda331c9984f4e6a1afd13cb5ce90052101",
+  "bytes": null,
+  "retrieved": "2026-10-30 09:19 UTC",
+  "rows": 33900,
+  "columns": [
+   "Record_ID",
+   "Store_Name",
+   "Store_Street_Address",
+   "Additonal_Address",
+   "City",
+   "State",
+   "Zip_Code",
+   "Zip4",
+   "County",
+   "Store_Type",
+   "Latitude",
+   "Longitude",
+   "Incentive_Program",
+   "Grantee_Name",
+   "ObjectId",
+   "_x",
+   "_y"
+  ]
+ },
+ {
+  "url": "https://www.fna.usda.gov/sites/default/files/resource-files/snap-retailer-locator-data2005-2025.zip",
+  "file": "snap-retailer-locator-data2005-2025.zip",
+  "sha256": "872a6f814a63514a1f1b0c4517a90309a9fbb01d97d6e4dbb1e8b20421c08cce",
+  "bytes": 24036753,
+  "retrieved": "2026-10-30 09:19 UTC"
+ },
+ {
+  "url": "https://data.hrsa.gov/DataDownload/DD_Files/Health_Center_Service_Delivery_and_LookAlike_Sites.csv",
+  "file": "Health_Center_Service_Delivery_and_LookAlike_Sites.csv",
+  "sha256": "b636677ddda519be3a45ae3c51dfa7a805c1887216e4a0c9c8a85a49e92e873e",
+  "bytes": 14191987,
+  "retrieved": "2026-10-30 09:19 UTC"
+ }
+]
